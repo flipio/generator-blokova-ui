@@ -1,4 +1,4 @@
-# generator-app
+# generator-app-ui
 
 ## Project setup
 ```
