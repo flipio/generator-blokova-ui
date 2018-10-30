@@ -1,8 +1,12 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import VueResource from 'vue-resource'
 
-Vue.config.productionTip = false
+import './plugins/vuetify';
+import App from './App.vue';
+
+Vue.use(VueResource);
+Vue.config.productionTip = false;
 
 new Vue({
   render: h => h(App)
-}).$mount('#app')
+}).$mount('#app');
